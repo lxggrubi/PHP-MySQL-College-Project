@@ -1,0 +1,211 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+section {
+  height: 100vh;
+  padding: 25px;
+  border-bottom: 2px solid black;
+}
+
+.herosection {
+  padding-top: 15em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/makarska.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.herosection h1 {
+  font-size: 4.800em;
+}
+
+.herosection p {
+  font-size: 1.800em;
+}
+
+.pics {
+  margin-top: 40px;
+  height: 18em;
+  width: auto;
+}
+
+.otherpics {
+  height: 18em;
+  width: auto;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#btop {
+  margin-top: 11em;
+  font-size: 1.200em;
+}
+
+span {
+  color: black;
+  font-size: 45px;
+}
+
+#gallery {
+  height: 350px;
+  width: 650px;
+}
+
+#history {
+  margin-top: 40px;
+}
+
+#imgGal {
+  margin-top: 10px;
+}
+
+/*----------------------------------------------------------------------------*
+* Copyright 2017 Leon Grubisic <lxg6892@rit.edu>.
+*
+* TABLE OF CONTENTS
+*  - Big Tablet Up To 1200px
+*  - Small to Big Tablet: 768px-1023px
+*  - Small Phones to Small Tablest: 481px-767px
+*  - Small Phones: 0-480px
+*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*
+* Big Tablet Up To 1200px
+*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  #img-media {
+    display: none;
+  }
+
+  #gallery {
+    width: 440px;
+    height: auto;
+  }
+
+  .media-section {
+    margin-top: 100px;
+    border-bottom: 0;
+  }
+
+  #imgGal {
+    background-color: white;
+  }
+
+  ul li {
+    font-size: 10px;
+  }
+
+
+
+}
+
+/*----------------------------------------------------------------------------*
+* Small to Big Tablet: 768px-1023px
+*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1023px) {
+  #img-media {
+    display: none;
+  }
+
+  #gallery {
+    width: 340px;
+    height: auto;
+  }
+
+  .media-section {
+    margin-top: 100px;
+    border-bottom: 0;
+  }
+
+  #imgGal {
+    background-color: white;
+  }
+
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 6px 9px;
+  }
+
+  .navbar-left {
+    display: none;
+  }
+
+  .navbar {
+    min-height: 0px;
+  }
+
+}
+
+
+/*----------------------------------------------------------------------------*
+* Small Phones to Small Tablest: 481px-767px
+*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  #img-media {
+    display: none;
+  }
+
+  #gallery {
+    width: 250px;
+    height: auto;
+  }
+
+  .media-section {
+    margin-top: 100px;
+    border-bottom: 0;
+  }
+
+  #imgGal {
+    background-color: white;
+  }
+
+  #resize-media {
+    width: 390px;
+    height: 18em;
+  }
+
+
+}
+
+/*----------------------------------------------------------------------------*
+* Small Phones: 0-480px
+*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+  #img-media {
+    display: none;
+  }
+
+  #gallery {
+    width: 240px;
+    height: auto;
+  }
+
+  .media-section {
+    margin-top: 100px;
+    border-bottom: 0;
+  }
+
+  #imgGal {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  #resize-media {
+    width: 250px;
+    height: 12em;
+  }
+
+  #comments {
+    margin-top: 320px;
+  }
+
+}
